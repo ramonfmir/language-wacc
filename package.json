@@ -2,16 +2,9 @@
   "name": "language-wacc",
   "version": "0.1.0",
   "description": "WACC language support in Atom",
+  "repository": "https://github.com/ramonfmir/language-wacc",
+  "license": "MIT",
   "engines": {
-    "atom": "*"
-  },
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ramonfmir/language-wacc.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ramonfmir/language-wacc/issues"
-  },
-  "license": "MIT"
+    "atom": ">0.50.0"
+  }
 }

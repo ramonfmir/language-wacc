@@ -1,0 +1,15 @@
+'name': 'wacc'
+'scopeName': 'source.wacc'
+'fileTypes': [
+  'wacc'
+]
+'patterns': [
+  {
+    'name': 'keyword.control.wacc'
+    'match': '\\b(if|else|fi|while|for|do|done|begin|end)\\b'
+  }
+  {
+    'name': 'entity.name.type.class.wacc'
+    'match': '\\b(int|string|pair|bool)\\b'
+  }
+]
